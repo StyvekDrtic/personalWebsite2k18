@@ -2,4 +2,105 @@
 layout: default
 ---
 
-<h1>Nazdar!</h1>
+<section class="obecne">
+  <p>Long story short, my name is Jiri Stepanek and I’m 18 years old. Although I still haven't finished high school, I run a small agency called PalmMedia. I personally specialize in social media marketing and web development. I spent most of my time working for clients, in the GYM or just playing with my cat.</p>
+  <img src="assets/img/mojeFoto.jpg" alt="Jiri Stepanek">
+</section>
+<section class="spojeni">
+  <div class="kontaktyOuter">
+    <h2>Let's get in touch</h2>
+    <div class="social">
+      <ul>
+        <li>
+          <a href="https://instagram.com/StyvekDrtic">
+            <img src="assets/img/ig.png" alt="Instagram @StyvekDrtic">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/styvekdrtic/">
+            <img src="assets/img/in.png" alt="LinkedIn StyvekDrtic">
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com/StyvekDrtic">
+            <img src="assets/img/tw.png" alt="Twitter @StyvekDrtic">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCPPueu99TV68iAeEAbunYdA">
+            <img src="assets/img/yt.png" alt="Youtube Jiri Stepanek">
+          </a>
+        </li>
+        <li>
+          <a href="https://open.spotify.com/user/jiristepanek?si=QdNHY4SlQ4OUmmCre3-LTA">
+            <img src="assets/img/sp.png" alt="Spotify JiriStepanek">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="kontakty">
+      <a href="mailto:jiristepanek@hotmail.com">jiristepanek@hotmail.com</a>
+      <a href="tel:+420605176305">+420 605 176 305</a>
+    </div>
+  </div>
+  <div class="konzultace">
+    <p>Can I help you with anything?<br>Let’s chat for 30 minutes!</p>
+    <a href="https://jiristepanek1.typeform.com/to/QoGofW">schedule free consultation</a>
+  </div>
+</section>
+<section class="prace">
+  <div class="projekty">
+    <h2>My own projects</h2>
+    <h4>(to see some client work, visit palmmedia.co)</h4>
+    <ul class="projekty">
+      <li>
+        <a href="https://palmmedia.co/">
+          <div class="projekt palmmedia"></div>
+        </a>
+      </li>
+      <li>
+        <a href="https://anchor.fm/audiozurnal/">
+          <div class="projekt audiozurnal"></div>
+        </a>
+      </li>
+      <li>
+        <a href="https://anchor.fm/strednivusa/">
+          <div class="projekt strednivusa"></div>
+        </a>
+      </li>
+      <li>
+        <a href="http://lanistae.cz/">
+          <div class="projekt lanistae"></div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="articles">
+    <div class="articlesInner">
+      <h2>articles</h2>
+      <ul>
+      {% for post in site.posts %}
+        <li class="article">
+          <h3>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h3>
+          <p class="datum">{{ post.date | date: "%B %e, %Y" }}</p>
+          <p class="uryvek">{{ post.uryvek }}</p>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+    <div class="konzultace neDesktop">
+      <p>Can I help you with anything?<br>Let’s chat for 30 minutes!</p>
+      <a href="https://jiristepanek1.typeform.com/to/QoGofW">schedule free consultation</a>
+    </div>
+    <footer>
+      <div class="innerFooter">
+        <div class="cara"></div>
+        <p>thanks for your attention<br><br>Jiri Stepanek</p>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="assets/js/app.js"></script>
+    </footer>
+  </div>
+</section>

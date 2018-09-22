@@ -2,14 +2,37 @@
 
 fonts
 
-*****************************************
+*****************************************/
 
-@font-face {
-    font-family: "neco";
-    src: url("../fonts/GothamRounded-Book.otf");
+@mixin font-face($jmeno, $soubor) {
+  @font-face {
+      font-family: $jmeno; /* deklarace fontu */
+      src: url("../fonts/#{$soubor}"); /* propojení na umístění souboru */
+  }
 }
 
-*****************************************
+@include font-face("AveBlack", "Avenir-Black.ttf");
+@include font-face("AveBlackOblique", "Avenir-BlackOblique.ttf");
+@include font-face("AveBook", "Avenir-Book.ttf");
+@include font-face("AveBookOblique", "Avenir-BookOblique.ttf");
+@include font-face("AveHeavy", "Avenir-Heavy.ttf");
+@include font-face("AveHeavyOblique", "Avenir-HeavyOblique.ttf");
+@include font-face("AveLight", "Avenir-Light.ttf");
+@include font-face("AveLightOblique", "Avenir-LightOblique.ttf");
+@include font-face("AveMedium", "Avenir-Medium.ttf");
+@include font-face("AveMediumOblique", "Avenir-MediumOblique.ttf");
+@include font-face("AveOblique", "Avenir-Oblique.ttf");
+@include font-face("AveRoman", "Avenir-Roman.ttf");
+
+@include font-face("MaaBlack", "Maax_black.otf");
+@include font-face("MaaBoldItalic", "Maax_boldItalic.otf");
+@include font-face("MaaBold", "Maax_bold.otf");
+@include font-face("MaaItalic", "Maax_italic.otf");
+@include font-face("MaaMediumItalic", "Maax_mediumItalic.otf");
+@include font-face("MaaMedium", "Maax_medium.otf");
+@include font-face("Maa", "Maax.otf");
+
+/*****************************************
 
 colors
 
