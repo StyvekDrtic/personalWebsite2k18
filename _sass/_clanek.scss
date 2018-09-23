@@ -47,4 +47,39 @@
       color: #bbb;
     }
   }
+
+  @media screen and (min-width: 700px) {
+    padding-top: 90px;
+  }
+}
+
+.pravaCast {
+  @media screen and (min-width: 700px) {
+    width: 290px;
+    display: inline-block;
+    margin: 0;
+    float: right;
+  }
+}
+
+.levaCast {
+
+  .konzultace {
+    @media screen and (min-width: 700px) {
+      margin: 0;
+    }
+  }
+
+  @media screen and (min-width: 700px) {
+    width: 290px;
+    display: inline-block;
+    margin: 0;
+  }
+}
+
+.podClankem {
+  @media screen and (min-width: 700px) {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
 }

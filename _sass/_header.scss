@@ -5,6 +5,7 @@ header {
   height: 50px;
   position: fixed;
   top: 0;
+  z-index: 1000;
 
   a {
     width: 100%;
@@ -37,4 +38,16 @@ header {
     letter-spacing: 1.5px;
     font-size: 16px;
   }
+
+  @media screen and (min-width: 700px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.headerInner {
+  position: relative;
+  max-width: 690px;
+  width: 100%;
+  margin: 0 auto;
 }

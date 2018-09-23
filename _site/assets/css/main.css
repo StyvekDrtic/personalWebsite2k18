@@ -2691,7 +2691,13 @@ h2 {
 
 section {
   width: calc(100% - 30px);
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 400px; }
+  @media screen and (min-width: 700px) {
+    section {
+      width: 660px;
+      position: relative;
+      max-width: none; } }
 
 header {
   width: 100%;
@@ -2699,7 +2705,8 @@ header {
   text-align: center;
   height: 50px;
   position: fixed;
-  top: 0; }
+  top: 0;
+  z-index: 1000; }
   header a {
     width: 100%;
     text-align: center;
@@ -2726,6 +2733,16 @@ header {
     text-align: right;
     letter-spacing: 1.5px;
     font-size: 16px; }
+  @media screen and (min-width: 700px) {
+    header {
+      padding-top: 20px;
+      padding-bottom: 20px; } }
+
+.headerInner {
+  position: relative;
+  max-width: 690px;
+  width: 100%;
+  margin: 0 auto; }
 
 footer {
   margin-top: 40px;
@@ -2752,12 +2769,26 @@ footer {
     line-height: 23px;
     font-family: AveRoman;
     margin: 0 auto; }
+    @media screen and (min-width: 700px) {
+      .obecne p {
+        width: 290px;
+        display: inline-block;
+        float: right;
+        margin-top: 23px; } }
   .obecne img {
     margin: 0 auto;
     display: block;
     margin: 0 auto;
     margin-top: 30px;
     width: 100%; }
+    @media screen and (min-width: 700px) {
+      .obecne img {
+        width: 290px;
+        display: inline-block;
+        margin: 0; } }
+  @media screen and (min-width: 700px) {
+    .obecne {
+      padding-top: 90px; } }
 
 .spojeni {
   margin-top: 40px; }
@@ -2789,6 +2820,15 @@ footer {
       .spojeni .kontaktyOuter .kontakty a:last-child {
         float: right;
         margin-top: 2px; }
+  @media screen and (min-width: 700px) {
+    .spojeni .kontaktyOuter {
+      width: 290px;
+      display: inline-block;
+      margin-top: 20px;
+      margin-bottom: 20px; } }
+  @media screen and (min-width: 700px) {
+    .spojeni {
+      margin-top: 60px; } }
 
 .konzultace {
   width: 100%;
@@ -2816,6 +2856,13 @@ footer {
     padding: 10px 15px;
     display: block;
     margin-top: 15px; }
+
+@media screen and (min-width: 700px) {
+  .hpKonzultace {
+    width: 290px;
+    display: inline-block;
+    float: right;
+    margin-top: 0; } }
 
 .prace {
   margin-top: 40px; }
@@ -2860,6 +2907,13 @@ footer {
         background-size: cover; }
       .prace .projekty ul li:last-child {
         margin-bottom: 0; }
+  @media screen and (min-width: 700px) {
+    .prace .projekty {
+      width: 290px;
+      display: inline-block; } }
+  @media screen and (min-width: 700px) {
+    .prace {
+      margin-top: 80px; } }
 
 .articles {
   margin-top: 40px; }
@@ -2882,6 +2936,16 @@ footer {
         margin-top: 5px; }
       .articles .articlesInner ul li .uryvek {
         margin-top: 10px; }
+  @media screen and (min-width: 700px) {
+    .articles {
+      width: 290px;
+      display: inline-block;
+      float: right;
+      margin: 0; } }
+
+@media screen and (min-width: 700px) {
+  .neDesktop {
+    display: none; } }
 
 .clanek {
   padding-top: 65px; }
@@ -2918,3 +2982,27 @@ footer {
     .clanek .content .skrt {
       text-decoration: line-through;
       color: #bbb; }
+  @media screen and (min-width: 700px) {
+    .clanek {
+      padding-top: 90px; } }
+
+@media screen and (min-width: 700px) {
+  .pravaCast {
+    width: 290px;
+    display: inline-block;
+    margin: 0;
+    float: right; } }
+
+@media screen and (min-width: 700px) {
+  .levaCast .konzultace {
+    margin: 0; } }
+@media screen and (min-width: 700px) {
+  .levaCast {
+    width: 290px;
+    display: inline-block;
+    margin: 0; } }
+
+@media screen and (min-width: 700px) {
+  .podClankem {
+    margin-top: 50px;
+    margin-bottom: 100px; } }
