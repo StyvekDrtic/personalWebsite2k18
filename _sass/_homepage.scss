@@ -3,7 +3,8 @@
 
   p {
     color: #575757;
-    line-height: 23px;
+    font-size: 13px;
+    line-height: 26px;
     font-family: AveRoman;
     margin: 0 auto;
 
@@ -70,7 +71,7 @@
 
       a {
         font-family: AveRoman;
-        font-size: 15px;
+        font-size: 14px;
         color: #575757;
         text-align: left;
         text-decoration: none;
@@ -166,13 +167,17 @@
 
           div {
             width: 100%;
-            height: 180px;
+            height: 170px;
+
+            @media screen and (min-width: 700px) {
+              height: 150px;
+            }
           }
         }
 
         &:nth-child(1) {
           div {
-            background: url("../img/palmmedia.png");
+            background: url("../img/palmmedia.png?a=1");
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -181,7 +186,7 @@
 
         &:nth-child(2) {
           div {
-            background: url("../img/audiozurnal.png");
+            background: url("../img/audiozurnal.png?a=1");
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -190,7 +195,7 @@
 
         &:nth-child(3) {
           div {
-            background: url("../img/strednivusa.png");
+            background: url("../img/strednivusa.png?a=1");
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -199,7 +204,7 @@
 
         &:nth-child(4) {
           div {
-            background: url("../img/lanistae.png");
+            background: url("../img/lanistae.png?a=1");
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
