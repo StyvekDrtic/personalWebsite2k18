@@ -46,5 +46,21 @@ defaults
 
 h1, h2, h3, h4, h5, p, span, a {
   font-weight: normal !important;
-  //font-family: book;
+  font-family: AveBook;
+  font-size: 12px;
+  margin: 0;
+}
+
+h2 {
+  font-family: AveBlack;
+  font-size: 13px;
+  color: #575757;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+section {
+  width: calc(100% - 30px);
+  margin: 0 auto;
 }

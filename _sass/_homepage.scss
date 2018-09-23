@@ -1,0 +1,219 @@
+
+.obecne {
+  padding-top: 65px;
+
+  p {
+    color: #575757;
+    line-height: 23px;
+    font-family: AveRoman;
+    margin: 0 auto;
+  }
+
+  img {
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+
+.spojeni {
+  margin-top: 40px;
+
+  .kontaktyOuter {
+    .social {
+      position: relative;
+      height: 30px;
+      background: #fff;
+
+      ul {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+
+        li {
+          display: inline-block;
+          list-style: none;
+
+          a {
+            text-decoration: none;
+
+            img {
+              width: 30px;
+              height: 30px;
+            }
+          }
+        }
+      }
+    }
+
+    .kontakty {
+      margin-top: 10px;
+
+      a {
+        font-family: AveRoman;
+        font-size: 12px;
+        color: #575757;
+        text-align: left;
+        text-decoration: none;
+
+        &:last-child {
+          float: right;
+          margin-top: 2px;
+        }
+      }
+    }
+  }
+}
+
+.konzultace {
+  width: 100%;
+  background: #373737;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 40px;
+
+  p {
+    font-family: AveMedium;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  a {
+    background-color: #fff;
+    width: 240px;
+    font-family: AveBlack;
+    font-size: 13px;
+    color: #575757;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 10px 15px;
+    display: block;
+    margin-top: 15px;
+  }
+}
+
+.prace {
+  margin-top: 40px;
+
+  .projekty {
+
+    h2 {
+      margin-bottom: 5px;
+    }
+
+    h4 {
+      font-family: AveMedium;
+      font-size: 11px;
+      color: #969696;
+      margin: 0;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+      margin-top: 20px;
+
+      li {
+        list-style: none;
+        margin-bottom: 20px;
+
+        a {
+          text-decoration: none;
+
+          div {
+            width: 100%;
+            height: 150px;
+          }
+        }
+
+        &:nth-child(1) {
+          div {
+            background: url("../img/palmmedia.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+          }
+        }
+
+        &:nth-child(2) {
+          div {
+            background: url("../img/audiozurnal.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+          }
+        }
+
+        &:nth-child(3) {
+          div {
+            background: url("../img/strednivusa.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+          }
+        }
+
+        &:nth-child(4) {
+          div {
+            background: url("../img/lanistae.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+          }
+        }
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+.articles {
+  margin-top: 40px;
+
+  .articlesInner {
+    h2 {
+
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+
+      li {
+        list-style: none;
+        margin-bottom: 25px;
+
+        h3 {
+          a {
+            text-decoration: none;
+            font-family: AveHeavy;
+            font-size: 21px;
+            color: #1C1C1C;
+          }
+        }
+
+        .datum {
+          font-family: AveHeavy;
+          font-size: 12px;
+          color: #ABABAB;
+          letter-spacing: 1.5px;
+          margin-top: 5px;
+        }
+
+        .uryvek {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

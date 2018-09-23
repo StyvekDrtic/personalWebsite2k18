@@ -2676,4 +2676,191 @@ defaults
 
 *****************************************/
 h1, h2, h3, h4, h5, p, span, a {
-  font-weight: normal !important; }
+  font-weight: normal !important;
+  font-family: AveBook;
+  font-size: 12px;
+  margin: 0; }
+
+h2 {
+  font-family: AveBlack;
+  font-size: 13px;
+  color: #575757;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 15px; }
+
+section {
+  width: calc(100% - 30px);
+  margin: 0 auto; }
+
+header {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  height: 50px;
+  position: fixed; }
+  header a {
+    width: 100%;
+    text-align: center;
+    font-family: MaaBold;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    color: #1C1C1C;
+    text-decoration: none;
+    position: relative;
+    top: 17px; }
+
+footer {
+  margin-top: 40px;
+  padding-bottom: 40px; }
+  footer .innerFooter .cara {
+    width: 2px;
+    height: 195px;
+    background: #D8D8D8;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 40px; }
+  footer .innerFooter p {
+    font-family: AveMedium;
+    font-size: 13px;
+    color: #ABABAB;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 100%; }
+
+.obecne {
+  padding-top: 65px; }
+  .obecne p {
+    color: #575757;
+    line-height: 23px;
+    font-family: AveRoman;
+    margin: 0 auto; }
+  .obecne img {
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100%; }
+
+.spojeni {
+  margin-top: 40px; }
+  .spojeni .kontaktyOuter .social {
+    position: relative;
+    height: 30px;
+    background: #fff; }
+    .spojeni .kontaktyOuter .social ul {
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      margin: 0; }
+      .spojeni .kontaktyOuter .social ul li {
+        display: inline-block;
+        list-style: none; }
+        .spojeni .kontaktyOuter .social ul li a {
+          text-decoration: none; }
+          .spojeni .kontaktyOuter .social ul li a img {
+            width: 30px;
+            height: 30px; }
+  .spojeni .kontaktyOuter .kontakty {
+    margin-top: 10px; }
+    .spojeni .kontaktyOuter .kontakty a {
+      font-family: AveRoman;
+      font-size: 12px;
+      color: #575757;
+      text-align: left;
+      text-decoration: none; }
+      .spojeni .kontaktyOuter .kontakty a:last-child {
+        float: right;
+        margin-top: 2px; }
+
+.konzultace {
+  width: 100%;
+  background: #373737;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 40px; }
+  .konzultace p {
+    font-family: AveMedium;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center; }
+  .konzultace a {
+    background-color: #fff;
+    width: 240px;
+    font-family: AveBlack;
+    font-size: 13px;
+    color: #575757;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 10px 15px;
+    display: block;
+    margin-top: 15px; }
+
+.prace {
+  margin-top: 40px; }
+  .prace .projekty h2 {
+    margin-bottom: 5px; }
+  .prace .projekty h4 {
+    font-family: AveMedium;
+    font-size: 11px;
+    color: #969696;
+    margin: 0; }
+  .prace .projekty ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px; }
+    .prace .projekty ul li {
+      list-style: none;
+      margin-bottom: 20px; }
+      .prace .projekty ul li a {
+        text-decoration: none; }
+        .prace .projekty ul li a div {
+          width: 100%;
+          height: 150px; }
+      .prace .projekty ul li:nth-child(1) div {
+        background: url("../img/palmmedia.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      .prace .projekty ul li:nth-child(2) div {
+        background: url("../img/audiozurnal.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      .prace .projekty ul li:nth-child(3) div {
+        background: url("../img/strednivusa.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      .prace .projekty ul li:nth-child(4) div {
+        background: url("../img/lanistae.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      .prace .projekty ul li:last-child {
+        margin-bottom: 0; }
+
+.articles {
+  margin-top: 40px; }
+  .articles .articlesInner ul {
+    padding: 0;
+    margin: 0; }
+    .articles .articlesInner ul li {
+      list-style: none;
+      margin-bottom: 25px; }
+      .articles .articlesInner ul li h3 a {
+        text-decoration: none;
+        font-family: AveHeavy;
+        font-size: 21px;
+        color: #1C1C1C; }
+      .articles .articlesInner ul li .datum {
+        font-family: AveHeavy;
+        font-size: 12px;
+        color: #ABABAB;
+        letter-spacing: 1.5px;
+        margin-top: 5px; }
+      .articles .articlesInner ul li .uryvek {
+        margin-top: 10px; }
