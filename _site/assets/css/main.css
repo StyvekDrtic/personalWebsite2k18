@@ -2698,7 +2698,8 @@ header {
   background: #fff;
   text-align: center;
   height: 50px;
-  position: fixed; }
+  position: fixed;
+  top: 0; }
   header a {
     width: 100%;
     text-align: center;
@@ -2708,7 +2709,23 @@ header {
     color: #1C1C1C;
     text-decoration: none;
     position: relative;
-    top: 17px; }
+    top: 17px;
+    text-transform: uppercase; }
+  header .goBack {
+    position: absolute;
+    left: 15px;
+    top: 19px;
+    text-align: left;
+    font-size: 13px;
+    color: #757575;
+    letter-spacing: 1px; }
+  header .doPrava {
+    position: absolute;
+    right: 15px;
+    top: 16px;
+    text-align: right;
+    letter-spacing: 1.5px;
+    font-size: 16px; }
 
 footer {
   margin-top: 40px;
@@ -2721,7 +2738,7 @@ footer {
     display: block;
     margin-bottom: 40px; }
   footer .innerFooter p {
-    font-family: AveMedium;
+    font-family: AveRoman;
     font-size: 13px;
     color: #ABABAB;
     letter-spacing: 1px;
@@ -2780,10 +2797,11 @@ footer {
   padding-bottom: 15px;
   margin-top: 40px; }
   .konzultace p {
-    font-family: AveMedium;
+    font-family: AveBook;
     font-size: 15px;
     color: #FFFFFF;
-    text-align: center; }
+    text-align: center;
+    line-height: 24px; }
   .konzultace a {
     background-color: #fff;
     width: 240px;
@@ -2853,7 +2871,7 @@ footer {
       margin-bottom: 25px; }
       .articles .articlesInner ul li h3 a {
         text-decoration: none;
-        font-family: AveHeavy;
+        font-family: AveMedium;
         font-size: 21px;
         color: #1C1C1C; }
       .articles .articlesInner ul li .datum {
@@ -2864,3 +2882,39 @@ footer {
         margin-top: 5px; }
       .articles .articlesInner ul li .uryvek {
         margin-top: 10px; }
+
+.clanek {
+  padding-top: 65px; }
+  .clanek hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0 auto; }
+  .clanek h1 {
+    font-family: AveMedium;
+    font-size: 24px;
+    color: #1C1C1C;
+    margin-top: 11px;
+    margin-bottom: 0; }
+  .clanek .datum {
+    margin-top: 5px;
+    margin-bottom: 11px;
+    font-family: AveMedium;
+    font-size: 13px;
+    color: #ABABAB;
+    letter-spacing: 1px; }
+  .clanek .content {
+    font-family: AveRoman;
+    font-size: 12px;
+    color: #575757;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 40px; }
+    .clanek .content p {
+      margin-bottom: 20px; }
+    .clanek .content a {
+      font-family: AveHeavy;
+      color: #9c64ff; }
+    .clanek .content .skrt {
+      text-decoration: line-through;
+      color: #bbb; }

@@ -5,18 +5,39 @@
 
   <body>
 
-    {% include header.html %}
+    <header>
+      <a class="goBack" href="/">get me back</a>
+      <a class="doPrava" href="/">JIRI STEPANEK</a>
+    </header>
 
     <section class="clanek">
       <hr>
       <h1>{{ page.title }}</h1>
-      <p class="datum">{{ post.date | date: "%B %e, %Y" }}</p>
+      <p class="datum">{{ page.date | date: "%m/%d/%Y" }}</p>
       <hr>
-      {{ content }}
+      <div class="content">
+        {{ content }}
+      </div>
       <hr>
     </section>
 
     <section class="podClankem">
+      <div class="levaCast articles">
+        <div class="articlesInner">
+          <h2>articles</h2>
+          <ul>
+          {% for post in site.posts %}
+            <li class="article">
+              <h3>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </h3>
+              <p class="datum">{{ post.date | date: "%m/%d/%Y" }}</p>
+              <p class="uryvek">{{ post.uryvek }}</p>
+            </li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
       <div class="pravaCast">
         <div class="konzultace">
           <p>Can I help you with anything?<br>Let’s chat for 30 minutes!</p>
@@ -29,25 +50,9 @@
           </div>
         </footer>
       </div>
-      <div class="levaCast">
-        <div class="articlesInner">
-          <h2>articles</h2>
-          <ul>
-          {% for post in site.posts %}
-            <li class="article">
-              <h3>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-              </h3>
-              <p class="datum">{{ post.date | date: "%B %e, %Y" }}</p>
-              <p class="uryvek">{{ post.uryvek }}</p>
-            </li>
-          {% endfor %}
-          </ul>
-        </div>
-      </div>
     </section>
   </body>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="assets/js/app.js"></script>
+  <script src="/assets/js/app.js"></script>
 </html>
