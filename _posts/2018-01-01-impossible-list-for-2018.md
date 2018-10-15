@@ -44,7 +44,7 @@ I'm pretty sure that 2018 is gonna be my best year yet.
 <h3>Work Goals</h3>
 
 * Personal Instagram
-    * 500 followers
+    * <span class="skrt">500 followers</span>
     * 1000 followers
 * <span class="skrt">Start my own marketing agency</span>
     * <span class="skrt">First client</span>
