@@ -53,9 +53,9 @@ I'm pretty sure that 2018 is gonna be my best year yet.
     * Single project worth over 50k CZK
     * Single project worth over 100k CZK
     * Single project worth over 200k CZK
-* Put 100k CZK into the bank
+* <span class="skrt">Annual turnover over 50k CZK</span>
+    * 100k
     * 200k
-    * 500k
 * <span class="skrt">Record a podcast</span> <a href="https://itunes.apple.com/us/podcast/středn%C3%AD-v-usa/id1375353560?mt=2">Střední v USA</a> <a href="https://itunes.apple.com/us/podcast/audio%C5%BEurn%C3%A1l/id1384048755?mt=2">Audiožurnál</a>
 * <span class="skrt">Make a video on YouTube</span> <a href="https://www.youtube.com/channel/UCPPueu99TV68iAeEAbunYdA">link</a>
 
