@@ -11,7 +11,7 @@
   h1 {
     font-family: AveMedium;
     font-size: 24px;
-    color: #1C1C1C;
+    color: #2f2f2f;
     margin-top: 11px;
     margin-bottom: 0;
   }
@@ -26,8 +26,16 @@
   }
 
   h3 {
+    font-size: 20px;
+    font-family: AveHeavy;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+  }
+
+  h4 {
     font-size: 16px;
     font-family: AveMedium;
+    margin-bottom: 17px;
   }
 
   .content {
@@ -50,6 +58,22 @@
     .skrt {
       text-decoration: line-through;
       color: #bbb;
+    }
+
+    ul {
+      font-family: AveRoman;
+      font-size: 12px;
+      color: #575757;
+      line-height: 26px;
+      margin-top: -10px;
+      margin-bottom: 20px;
+
+      li {
+        font-family: AveRoman;
+        font-size: 12px;
+        color: #575757;
+        line-height: 26px;
+      }
     }
   }
 
