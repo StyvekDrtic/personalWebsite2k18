@@ -2778,7 +2778,7 @@ footer {
         width: 290px;
         display: inline-block;
         float: right;
-        margin-top: 23px; } }
+        margin-top: 1px; } }
   .obecne img {
     margin: 0 auto;
     display: block;
@@ -2893,22 +2893,27 @@ footer {
             .prace .projekty ul li a div {
               height: 150px; } }
       .prace .projekty ul li:nth-child(1) div {
-        background: url("../img/palmmedia.png?a=1");
+        background: url("../img/zblunk.png?a=2");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; }
       .prace .projekty ul li:nth-child(2) div {
-        background: url("../img/audiozurnal.png?a=1");
+        background: url("../img/palmmedia.png?a=2");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; }
       .prace .projekty ul li:nth-child(3) div {
-        background: url("../img/strednivusa.png?a=1");
+        background: url("../img/audiozurnal.png?a=2");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; }
       .prace .projekty ul li:nth-child(4) div {
-        background: url("../img/lanistae.png?a=1");
+        background: url("../img/strednivusa.png?a=2");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      .prace .projekty ul li:nth-child(5) div {
+        background: url("../img/lanistae.png?a=2");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; }
@@ -2964,7 +2969,7 @@ footer {
   .clanek h1 {
     font-family: AveMedium;
     font-size: 24px;
-    color: #1C1C1C;
+    color: #2f2f2f;
     margin-top: 11px;
     margin-bottom: 0; }
   .clanek .datum {
@@ -2974,6 +2979,17 @@ footer {
     font-size: 13px;
     color: #ABABAB;
     letter-spacing: 1px; }
+  .clanek h3 {
+    font-size: 20px;
+    font-family: AveHeavy;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+    margin-top: 30px; }
+  .clanek h4 {
+    font-size: 16px;
+    font-family: AveMedium;
+    margin-bottom: 17px;
+    margin-top: 25px; }
   .clanek .content {
     font-family: AveRoman;
     font-size: 12px;
@@ -2989,6 +3005,16 @@ footer {
     .clanek .content .skrt {
       text-decoration: line-through;
       color: #bbb; }
+    .clanek .content ul {
+      font-family: AveRoman;
+      font-size: 12px;
+      color: #575757;
+      line-height: 26px; }
+      .clanek .content ul li {
+        font-family: AveRoman;
+        font-size: 12px;
+        color: #575757;
+        line-height: 26px; }
   @media screen and (min-width: 700px) {
     .clanek {
       padding-top: 90px; } }

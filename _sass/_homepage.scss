@@ -177,7 +177,7 @@
 
         &:nth-child(1) {
           div {
-            background: url("../img/palmmedia.png?a=1");
+            background: url("../img/zblunk.png?a=2");
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -186,7 +186,7 @@
 
         &:nth-child(2) {
           div {
-            background: url("../img/audiozurnal.png?a=1");
+            background: url("../img/palmmedia.png?a=2");
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -195,7 +195,7 @@
 
         &:nth-child(3) {
           div {
-            background: url("../img/strednivusa.png?a=1");
+            background: url("../img/audiozurnal.png?a=2");
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -204,7 +204,16 @@
 
         &:nth-child(4) {
           div {
-            background: url("../img/lanistae.png?a=1");
+            background: url("../img/strednivusa.png?a=2");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+          }
+        }
+
+        &:nth-child(5) {
+          div {
+            background: url("../img/lanistae.png?a=2");
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
